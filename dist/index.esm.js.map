@@ -1,0 +1,1 @@
+{"version":3,"file":"index.esm.js","sources":["../src/index.js"],"sourcesContent":["function printMsg() {\r\n    return (\"This is a message from the demo package\");\r\n}\r\n\r\nexport default printMsg;"],"names":[],"mappings":"eAAA,WACI,MAAQ"}

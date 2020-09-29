@@ -1,0 +1,28 @@
+{
+  "name": "fluidtype.js",
+  "version": "1.0.1",
+  "description": "Fluid Typography. Responsive Typography. Type that can change with the screen.",
+  "source": "src/index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "microbundle",
+    "watch": "microbundle watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/byronwade/FluidType.js.git"
+  },
+  "keywords": [
+    "javascript",
+    "typography",
+    "responsive"
+  ],
+  "author": "Byron Wade, Ashwin Ramachandran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/byronwade/FluidType.js/issues"
+  },
+  "homepage": "https://github.com/byronwade/FluidType.js#readme"
+}
