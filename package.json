@@ -1,6 +1,6 @@
 {
   "name": "fluidtype.js",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Fluid Typography. Responsive Typography. Type that can change with the screen.",
   "source": "src/index.js",
   "main": "dist/index.js",

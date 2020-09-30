@@ -1,7 +1,7 @@
 //import printMsg from 'fluidtype.js';
 import React from 'react';
 import Container from 'react-bootstrap/Container';
-//const print = printMsg()
+//printMsg()
 
 function App() {
   return (
@@ -22,16 +22,16 @@ function App() {
       <p><strong>This line rendered as bold text.</strong></p>
       <p><em>This line rendered as italicized text.</em></p>
       <hr />
-      <blockquote class="blockquote">
-        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <blockquote className="blockquote">
+        <p className="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
       </blockquote>
       <hr />
-      <blockquote class="blockquote">
-        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-        <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+      <blockquote className="blockquote">
+        <p className="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+        <footer className="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
       </blockquote>
       <hr />
-      <ul class="list-unstyled">
+      <ul className="list-unstyled">
         <li>Lorem ipsum dolor sit amet</li>
         <li>Consectetur adipiscing elit</li>
         <li>Integer molestie lorem at massa</li>
@@ -49,33 +49,33 @@ function App() {
         <li>Eget porttitor lorem</li>
       </ul>
       <hr />
-      <ul class="list-inline">
-        <li class="list-inline-item">Lorem ipsum</li>
-        <li class="list-inline-item">Phasellus iaculis</li>
-        <li class="list-inline-item">Nulla volutpat</li>
+      <ul className="list-inline">
+        <li className="list-inline-item">Lorem ipsum</li>
+        <li className="list-inline-item">Phasellus iaculis</li>
+        <li className="list-inline-item">Nulla volutpat</li>
       </ul>
       <hr />
-      <dl class="row">
-        <dt class="col-sm-3">Description lists</dt>
-        <dd class="col-sm-9">A description list is perfect for defining terms.</dd>
+      <dl className="row">
+        <dt className="col-sm-3">Description lists</dt>
+        <dd className="col-sm-9">A description list is perfect for defining terms.</dd>
 
-        <dt class="col-sm-3">Euismod</dt>
-        <dd class="col-sm-9">
+        <dt className="col-sm-3">Euismod</dt>
+        <dd className="col-sm-9">
           <p>Vestibulum id ligula porta felis euismod semper eget lacinia odio sem nec elit.</p>
           <p>Donec id elit non mi porta gravida at eget metus.</p>
         </dd>
 
-        <dt class="col-sm-3">Malesuada porta</dt>
-        <dd class="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
+        <dt className="col-sm-3">Malesuada porta</dt>
+        <dd className="col-sm-9">Etiam porta sem malesuada magna mollis euismod.</dd>
 
-        <dt class="col-sm-3 text-truncate">Truncated term is truncated</dt>
-        <dd class="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
+        <dt className="col-sm-3 text-truncate">Truncated term is truncated</dt>
+        <dd className="col-sm-9">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</dd>
 
-        <dt class="col-sm-3">Nesting</dt>
-        <dd class="col-sm-9">
-          <dl class="row">
-            <dt class="col-sm-4">Nested definition list</dt>
-            <dd class="col-sm-8">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.</dd>
+        <dt className="col-sm-3">Nesting</dt>
+        <dd className="col-sm-9">
+          <dl className="row">
+            <dt className="col-sm-4">Nested definition list</dt>
+            <dd className="col-sm-8">Aenean posuere, tortor sed cursus feugiat, nunc augue blandit nunc.</dd>
           </dl>
         </dd>
       </dl>
